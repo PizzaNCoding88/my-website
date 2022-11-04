@@ -1,0 +1,57 @@
+:root{
+    --font: Dosis, Comic Sans;
+    --main-orange: rgba(252, 181, 49, 0.774);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    font-family: var(--font);
+}
+
+header{
+    height: 10%;
+    width: 100%;
+}
+
+.nav-bar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    background-color:var(--main-orange);
+}
+
+.logo{
+    margin-left: 5%;
+}
+
+ul{
+    margin-left: 30%;
+    width: 20%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+ul li{
+    font-size: 1.2rem;
+    background-color: white;
+    padding: 5px 18px;
+    border-radius: 0.5rem;
+}
+
+ul li:hover, ul li a:hover{
+    background-color: var(--main-orange);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
