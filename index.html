@@ -8,15 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
     <link rel="icon" href="images/favicon.ico">
     <title>Pizza&Dintorni</title>
 </head>
 <body>
+    
     <header>
         <nav class="nav-bar">
             <div class="img-container">
-                <img class="logo" src="images/Pizza&Dintorni-1.png" alt="website-logo">
+                <img class="logo" src="images/logo.png" alt="website-logo">
             </div>
             <ul class="navigation-bar">
                 <a href=""><li>Home</li></a>
@@ -28,16 +28,19 @@
     <main>
         <section class="nav-bar-main">
             <ul class="side-bar-nav">
-                <li>Pizza Menu</li>
+                <li><a class="open-modal" id="open-modal">Menu</a></li>
                 <li>Recipes</li>
             </ul>
         </section>
         <section class="modal-section">
-            
+            <div class="modal" id="modal">
+                <div class="modal-content"></div>
+            </div>
         </section>
     </main>
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
