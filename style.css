@@ -1,6 +1,6 @@
 :root{
     --font: Dosis, Comic Sans;
-    --main-orange: rgba(252, 181, 49, 0.774);
+    --main-orange:  rgb(250,125,25);
 }
 
 body{
@@ -25,13 +25,25 @@ header{
     align-items: center;
     border-bottom: 1px solid gray;
     background-color:var(--main-orange);
+    overflow-y: hidden;
+}
+
+
+.img-container{
+    height: 90%;
+    width: 10%;
+    
 }
 
 .logo{
-    margin-left: 5%;
+    height: 120px;
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+    
 }
 
-ul{
+.navigation-bar{
     margin-left: 30%;
     width: 20%;
     list-style: none;
@@ -40,18 +52,66 @@ ul{
     overflow: hidden;
 }
 
-ul li{
+.navigation-bar li{
     font-size: 1.2rem;
     background-color: white;
     padding: 5px 18px;
     border-radius: 0.5rem;
 }
 
-ul li:hover, ul li a:hover{
+.navigation-bar li:hover, ul li a:hover{
     background-color: var(--main-orange);
     color: white;
 }
 
 a{
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+main{
+    height: 80%;
+    width: 100%;
+    background-color: blue;
+}
+
+.nav-bar-main{
+    height: 10%;
+    width: 100%;
+    background-color: var(--main-orange);
+    border-top: 1px solid gray;
+}
+
+.side-bar-nav{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-bar-nav li{
+    list-style: none;
+    padding: 5px 18px;
+    margin-inline: 50px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+
+.modal-section{
+    height: 90%;
+    width: 100%;
+    background-color: red;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+    border-top: solid 1px gray;
+    background-color: grey;
 }
