@@ -28,13 +28,43 @@
     <main>
         <section class="nav-bar-main">
             <ul class="side-bar-nav">
-                <li><a class="open-modal" id="open-modal">Menu</a></li>
-                <li>Recipes</li>
+                <a class="open-modal" id="open-modal"><li>Menu</li></a>
+                <a class="open-modal" id="open-modal1"><li>Recipes</li></a>
             </ul>
         </section>
         <section class="modal-section">
             <div class="modal" id="modal">
-                <div class="modal-content"></div>
+                <div class="modal-content">
+                    <div class="top-menu">
+                        <ul>
+                            <li><a href="#menu" id="menuToggle">Menu</a></li>
+                            <li><a href="#recipes" id="recipesToggle">Recipes</a></li>
+                        </ul>
+                        <div class="vl"></div>
+                    </div>
+                    <div class="side-menu">
+                        <ul id="menu" class="menu">
+                            <li>Margherita</li>
+                            <div class="hl"></div>
+                            <li>Marinara</li>
+                            <div class="hl"></div>
+                            <li>Capricciosa</li>
+                            <div class="hl"></div>
+                            <li>Pizza & Dintorni</li>
+                            <div class="hl"></div>
+                            <li>Cosacca</li>
+                            <div class="hl"></div>
+                        </ul>
+                        <ul id="recipe" class="recipe">
+                            <li>Direct</li>
+                            <div class="hl"></div>
+                            <li>Biga</li>
+                            <div class="hl"></div>
+                            <li>Poolish</li>
+                            <div class="hl"></div>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
