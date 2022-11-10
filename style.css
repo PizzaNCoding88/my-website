@@ -126,7 +126,7 @@ main{
 }
 
 .modalOpen{
-    animation: modalOpen 1000ms ease-in-out forwards;
+    animation: modalOpen 100ms ease-in-out forwards;
 }
 
 @keyframes modalOpen{
@@ -292,10 +292,50 @@ main{
     text-align: center;
 }
 
+.side-menu a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .hl{
     height: 1px;
     width: 100%;
     background-color: gray
+}
+
+.central-part{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+
+}
+.right-section{
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.right-section h1{
+    padding-left: 50px;
+}
+
+.right-section p{
+    padding-left: 25px;
+}
+
+.pic-container{
+    background-image: url(images/background0.jpeg);
+    background-position: center;
+    background-size:contain;
+    height: 65%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hidden{
+    display: none;
 }
 
 footer{
