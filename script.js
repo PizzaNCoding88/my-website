@@ -7,23 +7,23 @@ const sms = document.querySelectorAll(".sms");
 const pizzaArt = document.querySelectorAll(".pizza-art");
 const picContainer = document.querySelector(".pic-container");
 
-for(let i=0 ; i<sms.length; i++){
-    sms[i].addEventListener("click", function(){
-        pizzaArt[i].classList.toggle("hidden");
-        picContainer.style.backgroundImage =`url('images/background${i}.jpeg')`;
-        if(picContainer.classList.contains("hidden")){
-            picContainer.classList.remove("hidden");
-        }
-        else{
-            picContainer.classList.add("hidden");
-        }
-        for(let j=0; j<pizzaArt.length; j++){
-            if(j!=i){
-                pizzaArt[j].classList.add("hidden");
-            }
-        }
-    });
-};
+// for(let i=0 ; i<sms.length; i++){
+//     sms[i].addEventListener("click", function(){
+//         pizzaArt[i].classList.toggle("hidden");
+//         picContainer.style.backgroundImage =`url('images/background${i}.jpeg')`;
+//         if(picContainer.classList.contains("hidden")){
+//             picContainer.classList.remove("hidden");
+//         }
+//         else{
+//             picContainer.classList.add("hidden");
+//         }
+//         for(let j=0; j<pizzaArt.length; j++){
+//             if(j!=i){
+//                 pizzaArt[j].classList.add("hidden");
+//             }
+//         }
+//     });
+// };
 
 
 const menuToggle = document.getElementById("menuToggle");
