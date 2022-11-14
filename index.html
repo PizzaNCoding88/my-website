@@ -12,36 +12,7 @@
     <title>Pizza&Dintorni</title>
 </head>
 <body>
-    
-    <header>
-        <nav class="nav-bar">
-            <div class="img-container">
-                <img class="logo" src="images/logo.png" alt="website-logo">
-            </div>
-            <ul class="navigation-bar">
-                <a href=""><li>Home</li></a>
-                <a href=""><li>Contacts</li></a>
-                <a href=""><li>Links</li></a>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="nav-bar-main">
-            <ul class="side-bar-nav">
-                <a class="open-modal" id="open-modal"><li>Menu</li></a>
-                <a class="open-modal" id="open-modal1"><li>Recipes</li></a>
-            </ul>
-        </section>
-        <section class="modal-section">
-            <div class="gallery-container">
-                <img src="https://media.cntraveller.com/photos/611bf12b231ed5e8dfa3488c/1:1/w_120%2Cc_limit/1theos.jpg">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/800px-Eq_it-na_pizza-margherita_sep2005_sml.jpg">
-                <img src="https://cdn.shopify.com/s/files/1/0624/9853/articles/20220211142645-margherita-9920.jpg">
-                <img src="https://fireaway.co.uk/wp-content/uploads/2021/05/Layer-1.png">
-                <img src="https://dev.sania.co.uk/wp-content/uploads/2021/03/pizza_fresca.jpg">
-            </div>
-
-            <!-- <div class="modal" id="modal">
+    <!-- <div class="modal" id="modal">
                 <div class="modal-content">
                     <div class="top-menu">
                         <ul>
@@ -173,6 +144,169 @@
                         </div>
                 </div>
             </div> -->
+    <div class="overlay active"></div>
+    <div class="modal-1 active">
+        <div class="modal-content-1">
+            <div class="top-menu">
+                <ul>
+                    <li><a href="#menu" id="menuToggle">Menu</a></li>
+                    <li><a href="#recipes" id="recipesToggle">Recipes</a></li>
+                </ul>
+                <div class="vl"></div>
+            </div>
+            <div class="central-part">
+                <div class="side-menu">
+                    <ul id="menu" class="menu">
+                        <li><a id="marg" href="#margherita">Margherita</a></li>
+                        <div class="hl"></div>
+                        <li><a id="mari" href="#marinara">Marinara</a></li>
+                        <div class="hl"></div>
+                        <li><a href="#capricciosa">Capricciosa</a></li>
+                        <div class="hl"></div>
+                        <li><a href="#pizzaedintorni">Pizza & Dintorni</a></li>
+                        <div class="hl"></div>
+                        <li><a href="#cosacca">Cosacca</a></li>
+                        <div class="hl"></div>
+                    </ul>
+                    <ul id="recipe" class="recipe">
+                        <li><a href="#direct">Direct</a></li>
+                        <div class="hl"></div>
+                        <li><a href="#biga">Biga</a></li>
+                        <div class="hl"></div>
+                        <li><a href="#poolish">Poolish</a></li>
+                        <div class="hl"></div>
+                    </ul>
+                </div>
+                <div class="right-section">
+                    <div class="article-container">
+                        <div class="pizza-art">
+                            <article id="margherita">
+                                <h1>Pizza Margherita</h1>
+                                <p>Probably the most famous topping in the world, margherita was originally
+                                    created by Raffaele Esposito when the Queen Margherita di Savoia
+                                    (hence why the name) asked for a pizza. <br> This is a simple pizza, 
+                                    made of tomatoes sauce, parmesan/pecorino mix, fior di latte, basil &
+                                    olive oil.
+                                </p>
+                            </article>
+                            <div class="pic-container">
+                                <img src="images/background0.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-container">
+                        <div class="pizza-art">
+                            <article id="marinara">
+                                <h1>Pizza Marinara</h1>
+                                <p>One of the oldest pizzas known, usually choose by the lowest ranks of
+                                    society, since it had a very few and low cost ingredients. Simply: tomatoes
+                                    sauce, extra virgin olive oil, and oregano. Only after hearing people complaining
+                                    of being bland, a pizzaioli working near the port of Naples decided to add garlic 
+                                    and basil.
+                                </p>
+                            </article>
+                            <div class="pic-container">
+                                <img src="images/background1.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-container">
+                        <div class="pizza-art">
+                            <article id="capricciosa">
+                                <h1>Pizza Capricciosa</h1>
+                                <p>Blah Blah Blah
+                                </p>
+                            </article>
+                            <div class="pic-container">
+                                <img src="images/background0.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-container">
+                        <div class="pizza-art">
+                            <article id="pizzaedintorni">
+                                <h1>Pizza & Dintorni</h1>
+                                <p>Blah Blah Blah
+                                </p>
+                            </article>
+                            <div class="pic-container">
+                                <img src="images/background0.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-container">
+                        <div class="pizza-art">
+                            <article id="cosacca">
+                                <h1>Pizza Cosacca</h1>
+                                <p>Blah Blah Blah
+                                </p>
+                            </article>
+                            <div class="pic-container">
+                                <img src="images/background0.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-container">
+                        <div class="pizza-art">
+                            <article id="direct">
+                                <h1>Direct Method</h1>
+                                <p>Blah Blah Blah
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="article-container">
+                        <div class="pizza-art">
+                            <article id="biga">
+                                <h1>Biga Method</h1>
+                                <p>Blah Blah Blah
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="article-container">
+                        <div class="pizza-art">
+                            <article id="poolish">
+                                <h1>Poolish Method</h1>
+                                <p>Blah Blah Blah
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="img-container">
+                <img class="logo" src="images/logo.png" alt="website-logo">
+            </div>
+            <ul class="navigation-bar">
+                <a href=""><li>Home</li></a>
+                <a href=""><li>Contacts</li></a>
+                <a href=""><li>Links</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="nav-bar-main">
+            <ul class="side-bar-nav">
+                <a class="open-modal" id="open-modal"><li>Menu</li></a>
+                <a class="open-modal" id="open-modal1"><li>Recipes</li></a>
+            </ul>
+        </section>
+        <section class="modal-section">
+            <div class="gallery-container">
+                <img src="https://media.cntraveller.com/photos/611bf12b231ed5e8dfa3488c/1:1/w_120%2Cc_limit/1theos.jpg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Eq_it-na_pizza-margherita_sep2005_sml.jpg/800px-Eq_it-na_pizza-margherita_sep2005_sml.jpg">
+                <img src="https://cdn.shopify.com/s/files/1/0624/9853/articles/20220211142645-margherita-9920.jpg">
+                <img src="https://fireaway.co.uk/wp-content/uploads/2021/05/Layer-1.png">
+                <img src="https://dev.sania.co.uk/wp-content/uploads/2021/03/pizza_fresca.jpg">
+            </div>
+
+            
         </section>
     </main>
     <footer>
