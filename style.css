@@ -1,6 +1,8 @@
 :root{
     --font: Dosis, Comic Sans;
     --main-orange:  rgb(250,125,25);
+    --main-brownish: #BB8588;
+    --bluish: #BAD7F2;
 }
 
 body{
@@ -11,10 +13,10 @@ body{
     width: 100%;
     font-family: var(--font);
     overflow: hidden;
-    background-image: linear-gradient(90deg,  rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(images/background.jpeg);
+    /* background-image: linear-gradient(90deg,  rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(images/background.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 header{
@@ -31,6 +33,7 @@ header{
     border-bottom: 1px solid gray;
     /* background-color:var(--main-orange); */
     overflow-y: hidden;
+    background-color: var(--main-brownish);
 }
 
 
@@ -63,16 +66,17 @@ header{
     background-color: white;
     padding: 5px 18px;
     border-radius: 0.5rem;
+    background-color: VAR(--bluish);
 }
-
+/* 
 .navigation-bar li:hover, .navigation-bar ul li a:hover{
     background-color: var(--main-orange);
     color: white;
-}
+} */
 
 a{
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 600;
 }
 
@@ -89,6 +93,7 @@ main{
 }
 
 .side-bar-nav{
+    background-color: var(--bluish);
     margin: 0;
     height: 100%;
     display: flex;
@@ -98,18 +103,18 @@ main{
 }
 
 .side-bar-nav li{
+    background-color: var(--main-brownish);
     cursor: pointer;
     list-style: none;
     padding: 5px 18px;
     margin-inline: 50px;
     font-size: 1.2rem;
-    text-transform: uppercase;
-    background-color: white;
     border-radius: 0.5rem;
     font-weight: 600;
 }
 
 .modal-section{
+    background-color: var(--bluish);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,6 +176,34 @@ main{
         height: 0;
     }
 }
+
+.gallery-container{
+    width: 100%;
+    height: 80%;
+    background-color: var(--bluish);
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-top: 3%;
+}
+
+.gallery-container img{
+    margin-inline: 10px;
+    height: 90%;
+    display: inline;
+    box-shadow: 5px 10px 30px #000000;
+    object-fit: cover;
+}
+
+.gallery-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+   .galler-container {
+    -ms-overflow-style: none;  /*IE and Edge*/
+    scrollbar-width: none;  /* Firefox */
+  } */
 
 .modal-content{
     position: absolute;
@@ -356,4 +389,5 @@ footer{
     height: 10%;
     width: 100%;
     border-top: solid 1px gray;
+    background-color: VAR(--main-brownish);
 }
