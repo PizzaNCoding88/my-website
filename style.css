@@ -70,8 +70,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid gray;
-    /* background-color:var(--main-orange); */
+    border-bottom: 1px solid rgb(160, 151, 151);
     overflow-y: hidden;
     background-color: var(--main-brownish);
 }
@@ -428,6 +427,6 @@ main{
 footer{
     height: 10%;
     width: 100%;
-    border-top: solid 1px gray;
+    border-top: solid 1px rgb(160, 151, 151);
     background-color: VAR(--main-brownish);
 }
