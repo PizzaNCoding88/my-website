@@ -7,7 +7,6 @@ const recipeModal = document.querySelector("#recipesToggle")
 const recipeSideMenu = document.querySelector(".recipe")
 const menuSideMenu = document.querySelector(".menu")
 
-
 menuModalToggle.addEventListener("click" , openModal);
 recipeModalToggle.addEventListener("click" , openModalRecipe);
 overlay.addEventListener("click", closeModal);
@@ -44,57 +43,21 @@ function closeModal(){
 }
 
 
-
-// menuToggle.onclick = function(){
-//     overlay.classList.add("active");
-//     modal.classList.add("active");
-//     recipe.style.display = "none";
-//     menu.style.display = "block";
-// };
-
-// recipeToggle.onclick = function(){
-//     recipe.style.display = "block";
-//     menu.style.display = "none";
-// };
+//INSIDE THE MODAL
+const menuToggle = document.querySelector("#menuToggle");
+const recipeToggle = document.querySelector("#recipesToggle");
 
 
+menuToggle.onclick = function(){
+    recipe.style.display = "none";
+    menu.style.display = "block";
+};
+
+recipeToggle.onclick = function(){
+    recipe.style.display = "block";
+    menu.style.display = "none";
+};
 
 
 
-
-// modalOpenBtn.onclick = function(){
-//     if(modal.classList.contains("modalOpen")){
-//         modal.classList.remove("modalOpen");
-//         modal.classList.add("modalClose");
-//         modalContent.classList.add("modalContentClose");
-//         modalContent.classList.remove("modalContentOpen");
-//         recipe.style.display = "none";
-//         menu.style.display = "none";
-//         topMenu.style.display = "none";
-//     }else{
-//         modal.classList.add("modalOpen");
-//         modal.classList.remove("modalClose");
-//         modalContent.classList.remove("modalContentClose");
-//         modalContent.classList.add("modalContentOpen");
-//         modalContent.style.display = "block";
-//         recipe.style.display = "none";
-//         menu.style.display = "block";
-//         topMenu.style.display = "flex";
-//         // modalContent.style.visibility = "visible" ;
-//     }
-// };
-
-// modalOpenBtn1.onclick = function(){
-//     if(modal.classList.contains("modalOpen")){
-//         modal.classList.remove("modalOpen");
-//         modal.classList.add("modalClose");
-        
-//     }else{
-//         modal.classList.add("modalOpen");
-//         modal.classList.remove("modalClose");
-//         recipe.style.display = "block";
-//         menu.style.display = "none";
-        
-//     }
-// };
 

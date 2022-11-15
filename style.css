@@ -68,7 +68,7 @@ header{
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgb(160, 151, 151);
     overflow-y: hidden;
@@ -79,7 +79,7 @@ header{
 .img-container{
     height: 90%;
     width: 10%;
-    
+    margin-left: 100px;
 }
 
 .logo{
@@ -92,11 +92,9 @@ header{
 }
 
 .navigation-bar{
-    margin-left: 30%;
     width: 20%;
     list-style: none;
     display: flex;
-    justify-content: space-between;
     overflow: hidden;
 }
 
@@ -107,15 +105,17 @@ header{
     border-radius: 0.5rem;
     background-color: VAR(--bluish);
 }
-/* 
-.navigation-bar li:hover, .navigation-bar ul li a:hover{
-    background-color: var(--main-orange);
-    color: white;
+
+.navigation-bar li:first-child{
+    margin-right: 20px;
+}
+/*
+.navigation-bar li:last-child{
+    margin-right: 10%;
 } */
 
 a{
     text-decoration: none;
-    /* text-transform: uppercase; */
     font-weight: 600;
 }
 
