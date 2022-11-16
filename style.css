@@ -131,6 +131,13 @@ main{
     border-top: 1px solid gray;
 }
 
+.nav-bar-main a:link,
+.nav-bar-main a:visited,
+.nav-bar-main a:active{
+    text-decoration: none;
+    color: black;
+}
+
 .side-bar-nav{
     background-color: var(--bluish);
     margin: 0;
@@ -379,10 +386,24 @@ main{
 .central-part{
     height: 93%;
     width: 100%;
-    /* background-color: red; */
     display: flex;
-
 }
+
+.central-part a:link,
+.central-part a:visited,
+.central-part a:active{
+    
+    color: black;
+}
+
+.central-part a:hover{
+    text-decoration: underline;
+}
+
+.top-menu a:hover{
+    text-decoration: underline;
+}
+
 .right-section{
     height: 100%;
     width: 100%;
