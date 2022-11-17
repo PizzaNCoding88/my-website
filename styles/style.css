@@ -64,18 +64,6 @@ header{
     width: 100%;
 }
 
-.nav-bar{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid rgb(160, 151, 151);
-    overflow-y: hidden;
-    background-color: var(--main-brownish);
-}
-
-
 .img-container{
     height: 90%;
     width: 10%;
