@@ -1,0 +1,6 @@
+footer{
+    height: 10%;
+    width: 100%;
+    border-top: solid 1px rgb(160, 151, 151);
+    background-color: VAR(--main-brownish);
+}

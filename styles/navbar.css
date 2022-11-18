@@ -8,3 +8,49 @@
     overflow-y: hidden;
     background-color: var(--main-brownish);
 }
+
+
+header{
+    height: 10%;
+    width: 100%;
+}
+
+.img-container{
+    height: 90%;
+    width: 10%;
+    margin-left: 100px;
+}
+
+.logo{
+    margin-top: -10px;
+    height: 100px;
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+    
+}
+
+.navigation-bar{
+    width: 20%;
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+}
+
+.navigation-bar li{
+    font-size: 1.2rem;
+    background-color: white;
+    padding: 5px 18px;
+    border-radius: 0.5rem;
+    background-color: VAR(--bluish);
+}
+
+.navigation-bar li:first-child{
+    margin-right: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+}
