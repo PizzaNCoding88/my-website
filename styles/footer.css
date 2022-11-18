@@ -3,4 +3,22 @@ footer{
     width: 100%;
     border-top: solid 1px rgb(160, 151, 151);
     background-color: VAR(--main-brownish);
+    font-weight: bold;
+}
+
+.copyright p{
+    display: block;
+    text-align: center;
+}
+
+.horiz-line{
+    background-color: var(--bluish  );
+    height: 1px;
+    width: 30%;
+    margin-inline: auto;
+}
+
+.bottom-footer{
+    display: block;
+    text-align: center;
 }

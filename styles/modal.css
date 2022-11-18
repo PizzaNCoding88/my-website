@@ -47,17 +47,17 @@
     width: 100%;
 }
 
-.modal{
+/* .modal{
     position: relative;
     background-color: rgba(0,0,0,.7);
     overflow-y: hidden;
-}
+} */
 
-.modalOpen{
+/* .modalOpen{
     animation: modalOpen 100ms ease-in-out forwards;
-}
+} */
 
-@keyframes modalOpen{
+/* @keyframes modalOpen{
     0%{
         width: 0px;
         height: 0px;
@@ -97,7 +97,7 @@
         width: 0;
         height: 0;
     }
-}
+} */
 
 .modal-content{
     position: absolute;
@@ -111,7 +111,7 @@
     background-color: rgba(255,255,255,0.8);
 }
 
-.modalContentOpen{
+/* .modalContentOpen{
     animation: modalContentOpen 1000ms ease-in-out 1000ms forwards;
 }
 
@@ -155,7 +155,7 @@
         width: 0;
         height: 0;
     }
-}
+} */
 
 
 .top-menu{
@@ -189,13 +189,13 @@
     color: black;
 }
 
-/* .vl{
+.vl{
     position: absolute;
     left: 50%;
-    height: 3%;
+    height: 7%;
     width: 1px;
     background-color: black;
-} */
+}
 
 .menu{display: block;}
 .recipe{display: none;}
