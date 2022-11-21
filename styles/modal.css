@@ -51,10 +51,42 @@
     background-color: var(--bluish);
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content:center;
     height: 100%;
     width: 100%;
+    margin-left: 0;
+    margin: 0;
+    border: 0;
 }
+/* INSTAGRAM SECTION */
+.instagram-link{
+    height: 80%;
+    width: 60%;
+    position: relative;
+}
+
+.instagram-link__container{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    height: 40%;
+    width: 80%;
+    background-color: rgba(0,0,0, 0.4);;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.instagram-link__image{
+    margin-left: 10%;
+    max-width: 80%;
+    max-height: 80%;
+    transition: transform 350ms cubic-bezier(.67,.18,.28,1.76);
+}
+
+.instagram-link__image:hover{transform: scale(1.1);}
 
 .modal-content{
     position: absolute;

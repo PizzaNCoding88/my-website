@@ -64,6 +64,10 @@ main{
     object-fit: cover;
 }
 
+.gallery-container img:hover{
+    transform: scale(1.1);
+}
+
 .gallery-container::-webkit-scrollbar {
     display: none;
   }
