@@ -63,3 +63,35 @@ a{
 a:visited{
     color: black;
 }
+
+.open-side-menu{
+    display: none;
+}
+
+.side-menu-11{
+    /* display: none; */
+}
+
+@media only screen and (max-width: 600px) {
+    .open-side-menu{
+        display: inline-block;
+        height: 100%;
+        width: 50px;
+    }
+    
+    .open-side-menu__icon{
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .side-menu-11{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 200px;
+        background-color: blue;
+        z-index: 10;
+    }
+}
