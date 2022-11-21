@@ -68,9 +68,11 @@ a:visited{
     display: none;
 }
 
-.hidden{
+.side-menu-11{
     display: none;
 }
+
+
 
 @media only screen and (max-width: 600px) {
     .open-side-menu{
@@ -87,13 +89,16 @@ a:visited{
     }
 
     .side-menu-11{
-        visibility: visible;
+        display: inline;
+        transform: translateX(-100%);
         position: fixed;
         top: 0;
         bottom: 0;
-        width: 200px;
-        background-color: rgba(0, 0, 0, 0.7);
+        right: 50%;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.9);
         z-index: 5;
+        transition: transform 400ms ease-in;
     }
 
     .side-menu-11__close-button{
@@ -107,16 +112,36 @@ a:visited{
 
     .side-menu-11 a{
         display: block;
-        margin-left: 60px;
+        /* margin-left: 60px; */
+        text-align: center;
         margin-bottom: 10px;
         color: white;
         text-transform: uppercase;
+        font-size: 1.5rem;
+        transition: all 200ms ease-in-out;
+    }
+
+    .side-menu-11 a:hover{
+        transform: scale(1.2);
     }
 
     .side-menu-11 a:first-child{
         margin-top: 80px;
     }
 
+   
+
+    .hidden-1{
+        transform: translateX(0);
+    }
+
+    .side-menu-11__hl{
+        height: 2px;
+        width: 80%;
+        background-color: white;
+        margin-inline: auto;
+        margin-bottom: 10px;
+    }
 
     .navigation-bar{display: none;}
 

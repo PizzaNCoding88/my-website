@@ -6,9 +6,9 @@ hamburgerMenu.addEventListener("click", openMenu);
 closeMobileNavbar.addEventListener("click", closeMenu);
 
 function openMenu(){
-    mobileNavbar.classList.remove("hidden");
+    mobileNavbar.classList.toggle("hidden-1");
 }
 
 function closeMenu(){
-    mobileNavbar.classList.add("hidden");
+    mobileNavbar.classList.toggle("hidden-1");
 }
