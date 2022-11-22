@@ -57,6 +57,7 @@
     margin-left: 0;
     margin: 0;
     border: 0;
+    overflow: hidden;
 }
 /* INSTAGRAM SECTION */
 .instagram-link{
@@ -70,7 +71,8 @@
     top: 25%;
     left: 10%;
     height: 40%;
-    width: 80%;
+    max-width: 80%;
+    min-width: 500px;
     background-color: rgba(0,0,0, 0.4);;
     z-index: 10;
     display: flex;
@@ -179,8 +181,7 @@
 
 .central-part a:link,
 .central-part a:visited,
-.central-part a:active{
-    
+.central-part a:active{  
     color: black;
 }
 
@@ -231,4 +232,21 @@
 
 .hidden{
     display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .modal-section-contacts{
+        display: flex;
+        flex-direction: column;
+        /* padding-top: 30px; */
+    }
+
+    .instagram-link__container{
+        height: 70%;
+        width: 90%;
+        margin-top: -10px;
+        min-width: auto;
+    }
+
 }
