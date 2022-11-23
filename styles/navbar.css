@@ -35,7 +35,7 @@ header{
     list-style: none;
     display: flex;
     overflow: hidden;
-    margin-right: 5%;
+    padding-right: 10%;
 }
 
 .navigation-bar li{
