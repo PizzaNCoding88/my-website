@@ -339,6 +339,14 @@
 
 }
 
+#direct h2 {
+    margin-left: 30px;
+}
+
+#direct li {
+    margin-left: 30px;
+}
+
 .hidden{
     display: none;
 }
