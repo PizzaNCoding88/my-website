@@ -297,7 +297,8 @@
         transform: scale(0.7);
     }
 
-}.modal-1{
+}
+
 .top-menu a:hover{
     text-decoration: underline;
 }
@@ -338,14 +339,25 @@
     min-height: 100%;
 
 }
+    
+.article-container h1 {
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+}
 
-#direct h2 {
+#direct h2, #biga h2, #poolish h2 {
     margin-left: 30px;
 }
 
-#direct li {
+#direct li, #biga li, #poolish li {
     margin-left: 30px;
 }
+
+#direct p, #biga p, #poolish p {
+    margin-right: 30px;
+}
+
 
 .hidden{
     display: none;
@@ -366,7 +378,7 @@
         min-width: auto;
     }
 
-    .modal-1{s
+    .modal-1{
         height: 80%;
         width: 80%;
         min-width: 10%;
