@@ -18,8 +18,11 @@
 }
 
 .modal-1{
-    height: 600px;
-    width: 800px;
+    height: 70%;
+    width: 45%;
+    min-width: 580px;
+    /* height: 600px;
+    width: 800px; */
     position: absolute;
     background-color: white;
     top: 50%;
@@ -252,8 +255,115 @@
     .modal-1{
         height: 80%;
         width: 80%;
+        min-width: 10%;
         position: absolute;
         background-color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: all 400ms;
+        border-radius: 25px;
+        overflow-y: hidden;
+    }
+
+    .side-menu{
+        height: 100%;
+        width: 30%;
+        border-right: 1px solid;
+        margin: 0;
+    }
+
+    .right-section{
+        height: 100%;
+        width: 90%;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+
+    /* .pic-container{
+        height: 280px;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+    } */
+
+    .pic-container img{
+        display: block;
+        height: 90%;
+        text-align: center;
+    }
+
+    .cosacca{
+        transform: scale(0.7);
+    }
+
+}.modal-1{
+.top-menu a:hover{
+    text-decoration: underline;
+}
+
+.right-section{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.right-section h1{
+    padding-top: 10px;
+    padding-left: 50px;
+    margin: 0;
+}
+
+.right-section p{
+    padding-left: 25px;
+}
+
+.pic-container{
+    height: 300px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.pic-container img{
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+
+.article-container{
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+
+}
+
+.hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .modal-section-contacts{
+        display: flex;
+        flex-direction: column;
+        /* padding-top: 30px; */
+    }
+
+    .instagram-link__container{
+        height: 70%;
+        width: 90%;
+        margin-top: -10px;
+        min-width: auto;
+    }
+
+    .modal-1{s
+        height: 80%;
+        width: 80%;
+        min-width: 10%;
+        position: absolute;
+        background-color: ￼white;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) scale(0);
